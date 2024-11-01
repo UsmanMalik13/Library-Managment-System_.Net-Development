@@ -1,0 +1,120 @@
+﻿<Window x:Class="Library_Managment_System.AccountMainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library_Managment_System"
+        mc:Ignorable="d"
+        Title="AccountMainPage" Icon="Media/ic.png" Height="700" Width="1000" ResizeMode="CanMinimize"  WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Media/lms.jpeg"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Library Managment System" HorizontalAlignment="Center" TextBlock.FontSize="40" FontFamily="Harrington" TextBlock.FontWeight="ExtraBlack" Height="71" Margin="0,51,0,0" VerticalAlignment="Top" Width="500"/>
+        <Button Content="LogOut" TabIndex="10" BorderThickness="2" BorderBrush="Black" FontFamily="Harrington" Background="Silver" HorizontalAlignment="Left" Height="40" Width="50" Margin="35,617,0,0" VerticalAlignment="Top" Click="Button_Click" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <TextBlock Name='welcometb' Text="Welcome, User ID: " FontFamily="Harrington" FontSize="15"  Margin="10,21,828,598" FontWeight="Bold"/>
+        <Button  Content="Add Books" TabIndex="5" BorderThickness="5" BorderBrush="Black" Background="Silver" FontFamily="Harrington" HorizontalAlignment="Left" Height="90" Margin="35,217,0,0" VerticalAlignment="Top" Width="201" FontSize="25" Click="Button_Click_1">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DataGrid x:Name="dataGrid"
+   Margin="241,217,33,133"
+   RowHeight="30"
+   GridLinesVisibility="Vertical"
+   HeadersVisibility="All"
+   Background="LightGray"
+   RowBackground="DarkGray"
+   AlternatingRowBackground="DimGray"
+   BorderBrush="Black" 
+   BorderThickness="4"
+   IsReadOnly="True"
+   AreRowDetailsFrozen="True"
+   FrozenColumnCount="2"
+   CanUserReorderColumns="False"
+   CanUserResizeColumns="False"
+   CanUserSortColumns="False"
+   AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="BookID" Width="50" Binding="{Binding BookID}" />
+                <DataGridTextColumn Header="Title" Width="260" Binding="{Binding Title}" />
+                <DataGridTextColumn Header="Author" Width="260" Binding="{Binding Author}" />
+                <DataGridTextColumn Header="Gerne" Width="50" Binding="{Binding Gerne}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button  Content="Selected Books" TabIndex="6" BorderThickness="5" BorderBrush="black" Background="Silver" FontFamily="Harrington" HorizontalAlignment="Left" Height="90" Margin="35,327,0,0" VerticalAlignment="Top" Width="201" FontSize="25" Click="Button_Click_3">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button  FontFamily="Harrington" TabIndex="4" BorderThickness="2" BorderBrush="Black" HorizontalAlignment="Left" Margin="903,172,0,0" VerticalAlignment="Top" Height="40" Width="50" Background="Silver" Click="Button_Click_4">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel>
+                <Image Source="Media/relaod.png" Height="30" Width="30"/>
+            </StackPanel>
+        </Button>
+        <Button  FontFamily="Harrington" TabIndex="3" BorderThickness="2"  BorderBrush="Black" HorizontalAlignment="Left" Margin="829,172,0,0" VerticalAlignment="Top" Height="40" Width="50" Background="Silver" Click="Button_Click_2" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel>
+                <Image Source="Media/search.png" Height="30" Width="30"/>
+            </StackPanel>
+        </Button>
+        <TextBox x:Name="tbSearch" TabIndex="2"  HorizontalAlignment="Left" Height="40" Margin="579,172,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="226" VerticalContentAlignment="Center" >
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <Button Content="Select" TabIndex="8" BorderThickness="3" BorderBrush="Black" FontFamily="Harrington" Background="Silver" HorizontalAlignment="Left" Height="40" Width="70" Margin="241,531,0,0" VerticalAlignment="Top" Click="Button_Click_6">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <Button Content="Remove" TabIndex="9" BorderThickness="3" BorderBrush="Black" FontFamily="Harrington" Background="Silver" HorizontalAlignment="Left" Height="40" Width="70" Margin="331,531,0,0" VerticalAlignment="Top" Click="Button_Click_7">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <Button  Content="Return Books" TabIndex="7" BorderThickness="5" BorderBrush="Black" Background="Silver" FontFamily="Harrington" HorizontalAlignment="Left" Height="90" Margin="35,436,0,0" VerticalAlignment="Top" Width="201" FontSize="25" Click="Button_Click_5">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius"  Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="About" TabIndex="1" BorderThickness="2" BorderBrush="Black" FontFamily="Harrington" Background="Silver" HorizontalAlignment="Left" Height="40" Width="50" Margin="915,27,0,0" VerticalAlignment="Top" Click="Button_Click_8" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+    </Grid>
+</Window>

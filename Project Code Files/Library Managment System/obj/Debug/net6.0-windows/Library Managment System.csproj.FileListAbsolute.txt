@@ -1,0 +1,40 @@
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\App.g.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System_MarkupCompile.cache
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System_MarkupCompile.lref
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\Library Managment System.exe
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\Library Managment System.deps.json
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\Library Managment System.runtimeconfig.json
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\Library Managment System.dll
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\Library Managment System.pdb
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\MainWindow.baml
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.g.resources
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.GeneratedMSBuildEditorConfig.editorconfig
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.AssemblyInfoInputs.cache
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.AssemblyInfo.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.csproj.CoreCompileInputs.cache
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.dll
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\refint\Library Managment System.dll
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.pdb
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.genruntimeconfig.cache
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\ref\Library Managment System.dll
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\VP_Project_Usman Malik\Library Managment System\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.csproj.AssemblyReference.cache
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\AccountMainPage.g.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\AccountMainPage.baml
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\Library Managment System.csproj.CopyComplete
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\SignUpPage.g.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\SignUpPage.baml
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\AddBooks.g.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\AddBooks.baml
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\SelectedBooks.g.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\SelectedBooks.baml
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\ReturnBooks.g.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\ReturnBooks.baml
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\AddIssueDate.g.cs
+E:\VP_Project_Usman Malik\Library Managment System\obj\Debug\net6.0-windows\AddIssueDate.baml
